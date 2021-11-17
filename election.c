@@ -46,7 +46,7 @@ int main ()
 		printf("le choix de %s est : \n",elect[i] );
 		scanf("%d",&idx);
 		strcpy(tour1[i], condid[idx]);
-		printf(" tu as choisi %s\n", tour1[i]);
+		printf(" ----->tu as choisi %s <-----\n", tour1[i]);
 		
 	}
 
